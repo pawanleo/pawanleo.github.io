@@ -5,8 +5,11 @@ body {
 .parent {
   width: 1032px;
   margin: auto;
-  border: 1px solid black;
+
   
+}
+.first{
+  border: 1px solid black;
 }
 
 .container1 {
@@ -223,4 +226,19 @@ margin-top: 45px;
     float: right;
     margin-top: 85px;
   
+}
+.ft1{
+  background-color: #afadae;
+  margin-top: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 16px;
+}
+.ft2{
+  background-color: #afadae;
+  margin-top: 10px;
+
+  width: 445px;
+  height: 16px;
+  float: right;
 }
