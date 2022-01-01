@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+.chatbox {
+	width: 600px;
+	border: 1px solid black;
+	margin: 10px auto;
+}
+
+.box-right {
+	text-align: right;
+}
+
+.message-box {
+	margin: 20px;
+	display: inline-block;
+	padding: 20px 100px 20px 20px;
+	background-color: yellow;
+	position: relative;
+	border-radius: 10px;
+}
+
+
+.message-box-tick {
+	height: 16px;
+	width: 16px;
+	background-color: yellow;
+	position: absolute;
+	top: -8px;
+
+	transform: rotate(45deg);
+}
+
+.left-box .message-box-tick {
+	left: 30px;
+}
+
+.right-box .message-box-tick {
+	right: 30px;
+}
