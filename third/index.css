@@ -1,0 +1,272 @@
+body {
+  margin-top: 0px;
+}
+
+.parent {
+  width: 972px;
+  margin: auto;
+  border: 1px solid #dedede;
+  position: relative;
+}
+.container-1 {
+  padding-bottom: 70px;
+}
+
+.Header {
+  height: 80px;
+  padding-bottom: 10px;
+  margin: 20px 27px 0px 27px;
+}
+
+#main-heading {
+  font-size: 30px;
+  height: 80px;
+  font-weight: bolder;
+
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-family: "Mulish", sans-serif;
+  margin-right: 5px;
+}
+#Logout-btn {
+  margin-top: 5px;
+  position: absolute;
+  left: 900px;
+  top: 30px;
+  height: 80px;
+  font-family: "Almarai", sans-serif;
+}
+#middle-heading {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.clear-fix {
+  clear: both;
+}
+
+.Mobile-num {
+  height: 58px;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 5px;
+}
+.Middle-Row {
+  margin: auto;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.Message-Draft {
+  background-color: rgb(224, 224, 224);
+  width: 850px;
+
+  height: 335px;
+  margin: 15px 60px 0px 60px;
+}
+.Contact-Num {
+  height: 52px;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+.To {
+  height: 40px;
+  width: 140px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Almarai", sans-serif;
+  font-size: x-large;
+}
+
+.Select-Col {
+  background-color: white;
+  width: 310px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #dedede;
+}
+
+.Ph-Num {
+  height: 40px;
+
+  width: 360px;
+  display: inline-block;
+  font-family: "Almarai", sans-serif;
+  font-size: x-large;
+  font-style: italic;
+  color: #afadae;
+}
+
+.Message {
+  width: 140px;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  bottom: 75px;
+  font-family: "Almarai", sans-serif;
+  font-size: x-large;
+}
+.Message-Space {
+  width: 676px;
+  background-color: white;
+
+  height: 105px;
+  display: inline-block;
+}
+#Attach {
+  margin-top: 10px;
+  position: relative;
+  left: 140px;
+  height: 25px;
+  text-align: start;
+  font-family: "Almarai", sans-serif;
+  font-size: small;
+}
+#Send-btn {
+  width: 222px;
+  margin-top: 33px;
+  margin-bottom: 40px;
+  height: 35px;
+  background-color: #afadae;
+  display: inline-block;
+  position: relative;
+  left: 140px;
+  text-align: center;
+  padding-top: 13px;
+  font-family: "Almarai", sans-serif;
+  font-size: large;
+}
+#Option {
+  display: inline-block;
+  margin-bottom: 14px;
+  position: relative;
+  left: 150px;
+  color: #afadae;
+}
+.Tabs {
+  margin: 0px 20px 0px 20px;
+  position: relative;
+  height: 34px;
+}
+.Recent {
+  background-color: #fefefe;
+  height: 28px;
+  display: inline-block;
+  width: 195px;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid #dedede;
+  font-family: "Almarai", sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  font-size: medium;
+}
+.All {
+  background-color: #f5f5f5;
+  height: 30px;
+  display: inline-block;
+  width: 172px;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid #dedede;
+  padding-top: 5px;
+  font-family: "Almarai", sans-serif;
+  text-align: center;
+  border-bottom: 0px;
+}
+.Pics {
+  background-color: #fefefe;
+  height: 28px;
+  display: inline-block;
+  width: 90px;
+  margin: 0px 20px 0px 0px;
+  border: 1px solid #dedede;
+  font-family: "Almarai", sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  border-bottom: 0px;
+}
+.Change {
+  margin-top: 5px;
+  float: right;
+  height: 80px;
+  font-family: "Almarai", sans-serif;
+}
+
+/* conversation-box */
+
+.conversation-box {
+  background-color: #f5f5f5;
+  padding: 0px 20px 50px 20px;
+  border-top: 1px solid #dedede;
+}
+
+.conversation-heading {
+  font-family: "Almarai", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  border-bottom: 1px solid #dedede;
+  margin-top: 30px;
+  padding-bottom: 5px;
+}
+
+td {
+  vertical-align: top;
+  padding-bottom: 25px;
+}
+.message-info {
+  width: 160px;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.message-number {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+}
+.message-count {
+  color: #afadae;
+font-size: medium;
+ 
+}
+.message-body {
+  padding-right: 5px;
+  margin-bottom: 20px;
+  font-family: "Almarai", sans-serif;
+}
+.new-notfi{
+  font-size: x-small;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  width: 30px;
+  
+  text-align: center;
+  vertical-align: middle;
+}
+/* second section*/
+.second-section {
+  margin-top: 0px;
+}
+
+/*footer*/
+.footer{
+  margin: auto;
+  width: 972px;
+  position: relative;
+}
+
+.company-name {
+  color: #dedede;
+  font-size: small;
+}
+.trademark{
+  display: inline-block;
+  color: #dedede;
+  font-size: small;
+  
+  position: absolute;
+  right: 0px;
+}
