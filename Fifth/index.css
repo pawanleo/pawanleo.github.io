@@ -24,7 +24,7 @@ body {
   flex: 70%;
 }
 .option-links {
-  font-size: 3vh;
+  font-size: 1.4vw;
   text-transform: uppercase;
   color: #5e6166;
   margin: 2%;
@@ -219,7 +219,7 @@ body {
 }
 /*my-projects*/
 .my-projects {
-  padding: 80px 150px 0px 150px;
+  padding: 80px 12% 0px 12%;
   background-color: #eaebed;
   text-align: center;
   position: relative;
