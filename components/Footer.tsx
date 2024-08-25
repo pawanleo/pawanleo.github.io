@@ -74,7 +74,7 @@ const Footer = () => {
           className="mt-8 text-sm opacity-75 text-center"
           variants={itemVariants}
         >
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Pawan Singh Rathore. All rights reserved.
         </motion.p>
       </motion.div>
     </footer>

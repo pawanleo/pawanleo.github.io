@@ -2,7 +2,8 @@
     {
       "companyName": "Jumeirah",
       "logo": "/jumeirah.png", 
-      "timeSpan": "Remote | Apr ‘22 - Present",
+      "title":"Full Stack Developer",
+      "timeSpan": "Apr ‘22 - Present",
       "points": [
         "Utilized React for frontend development and Node.js with Express for backend services with MongoDb as Database, leveraging AWS Lambda and Amazon Cognito for authentication, along with AWS S3 for scalable storage solutions.",
         "Improved website performance metrics by 23%, which led to a 12% decrease in bounce rates, resulting in a greater number of customers reaching our funnel.",
@@ -14,7 +15,8 @@
     {
       "companyName": "Digikull",
       "logo": "/jumeirah.png", 
-      "timeSpan": "Full Stack Developer",
+      "title":"Full Stack Developer",
+      "timeSpan": "Aug ‘21 - Apr ‘22",
       "points": [
         "Integrated real-time notifications via Socket.io to enhance user engagement during course purchases and class scheduling.",
         "Implemented Google OAuth for streamlined user login and improved user experience.",
@@ -25,7 +27,8 @@
     {
       "companyName": "Chiku",
       "logo": "/jumeirah.png", 
-      "timeSpan": "Software Engineer | Pune | Aug ‘21 - Apr ‘22",
+      "title":"Software Engineer",
+      "timeSpan": "Aug ‘20 - Aug ‘21",
       "points": [
         "Replicated a community platform from a React Native app to a web interface using React and Redux, enhancing accessibility and user engagement.",
         "Integrated various third-party libraries and REST APIs to extend the platform's functionality.",

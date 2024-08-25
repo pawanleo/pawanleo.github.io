@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import workExp from './data/workexp.json'
+import workExp from "./data/workexp.json";
 const WorkExp = () => {
   return (
     <div className="h-full w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center py-20">
@@ -14,12 +14,15 @@ const WorkExp = () => {
             </h2>
           </div>
           <div className="lg:col-start-2 lg:col-span-10 col-span-full">
-            {workExp.map((ele,index)=>(
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-2 mt-20 mx-auto" key={index}>
+            {workExp.map((ele, index) => (
+              <div
+                className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-2 mt-20 mx-auto"
+                key={index}
+              >
                 <div className="flex flex-row md:flex-col relative overflow-x-auto md:overflow-x-visible min-w-[150px]">
                   <div className="relative ">
                     <button className="px-4 text-zinc-400 relative z-20 min-w-28 w-full text-left rounded-md flex flex-row space-x-2 items-center group">
-                      <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-500 to-zinc-600">
+                      <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-500 to-zinc-600 md:p-0">
                         <Image
                           width={30}
                           height={30}
@@ -27,6 +30,7 @@ const WorkExp = () => {
                           alt={`ele.companyName`}
                         />
                       </div>
+
                       <span className="text-xl">{ele.companyName}</span>
                     </button>
                   </div>
@@ -42,13 +46,15 @@ const WorkExp = () => {
                       }}
                     >
                       <h1 className="text-2xl font-bold text-zinc-100">
-                        Software Developer{" "}
-                        <span className="text-cyan-500">@ {ele.companyName}</span>
+                        {ele.title}
+                        <span className="text-cyan-500">
+                          @ {ele.companyName}
+                        </span>
                       </h1>
                       <div className="text-zinc-400 text-sm tracking-widest">
-                    {ele.timeSpan}
+                        {ele.timeSpan}
                       </div>
-                      <p className="text-zinc-400 text-sm">Mountain View, CA</p>
+
                       {ele.points.map((items, index) => (
                         <div key={index}>
                           <div className="flex flex-row space-x-2 items-start my-2">
