@@ -21,7 +21,7 @@ const WorkExp = () => {
               >
                 <div className="flex flex-row md:flex-col relative overflow-x-auto md:overflow-x-visible min-w-[150px]">
                   <div className="relative ">
-                    <button className="px-4 text-zinc-400 relative z-20 min-w-28 w-full text-left rounded-md flex flex-row space-x-2 items-center group md:px-0">
+                    <button className="px-0 text-zinc-400 relative z-20 min-w-28 w-full text-left rounded-md flex flex-row space-x-2 items-center group md:px-4">
                       <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-500 to-zinc-600 ">
                         <Image
                           width={30}
