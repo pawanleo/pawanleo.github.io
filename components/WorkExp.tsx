@@ -49,68 +49,27 @@ const WorkExp = () => {
                     {ele.timeSpan}
                       </div>
                       <p className="text-zinc-400 text-sm">Mountain View, CA</p>
-                      <div>
-                        <div className="flex flex-row space-x-2 items-start my-2">
-                          <svg
-                            stroke="currentColor"
-                            fill="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 16 16"
-                            className="text-cyan-500 mt-[3px] flex-shrink-0"
-                            height="1em"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
-                          </svg>
-                          <span className="text-zinc-400 text-sm">
-                            Improved website performance metrics by 23%, which
-                            led to 12% decrease in bounce rates, resulting in
-                            greater number of customers reaching our funnel.
-                          </span>
+                      {ele.points.map((items, index) => (
+                        <div key={index}>
+                          <div className="flex flex-row space-x-2 items-start my-2">
+                            <svg
+                              stroke="currentColor"
+                              fill="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 16 16"
+                              className="text-cyan-500 mt-[3px] flex-shrink-0"
+                              height="1em"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+                            </svg>
+                            <span className="text-zinc-400 text-sm">
+                              {items}
+                            </span>
+                          </div>
                         </div>
-                        <div className="flex flex-row space-x-2 items-start my-2">
-                          <svg
-                            stroke="currentColor"
-                            fill="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 16 16"
-                            className="text-cyan-500 mt-[3px] flex-shrink-0"
-                            height="1em"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
-                          </svg>
-                          <span className="text-zinc-400 text-sm">
-                            Developed an Azure Function to handle 3 million of
-                            requests for a booking-related service, ensuring
-                            high availability and scalability and significantly
-                            reducing API response times.
-                          </span>
-                        </div>
-                        <div className="flex flex-row space-x-2 items-start my-2">
-                          <svg
-                            stroke="currentColor"
-                            fill="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 16 16"
-                            className="text-cyan-500 mt-[3px] flex-shrink-0"
-                            height="1em"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
-                          </svg>
-                          <span className="text-zinc-400 text-sm">
-                            Utilized React for frontend development and Node.js
-                            with Express for backend services with MongoDb as
-                            Database, leveraging AWS Lambda and Amazon Cognito
-                            for authentication, along with AWS S3 for scalable
-                            storage solutions.
-                          </span>
-                        </div>
-                      </div>
+                      ))}
                     </div>
                   </div>
                 </div>
