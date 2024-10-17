@@ -1,6 +1,7 @@
 [
   {
     "companyName": "Latitude Techno Labs",
+    "title":"Full stack Developer",
     "logo": "/jumeirah.png",
     "timeSpan": "Remote | Apr '22 - Present",
     "points": [
@@ -14,6 +15,7 @@
   },
   {
     "companyName": "Chiku",
+    "title":"Frontend Developer",
     "logo": "/jumeirah.png",
     "timeSpan": "Software Engineer | Pune | Aug '20 - Mar '22",
     "points": [
