@@ -4,10 +4,10 @@ import { Github, Linkedin, Code, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const links = [
-    { href: "https://github.com/yourusername", icon: Github, label: "GitHub" },
-    { href: "https://linkedin.com/in/yourusername", icon: Linkedin, label: "LinkedIn" },
-    { href: "https://leetcode.com/yourusername", icon: Code, label: "LeetCode" },
-    { href: "https://instagram.com/yourusername", icon: Instagram, label: "Instagram" }
+    { href: "https://github.com/pawanleo", icon: Github, label: "GitHub" },
+    { href: "https://www.linkedin.com/in/pawan-singh-rathore/", icon: Linkedin, label: "LinkedIn" },
+    { href: "https://leetcode.com/u/pawansinghrathore0708/", icon: Code, label: "LeetCode" },
+
   ];
 
   const containerVariants = {

@@ -9,6 +9,7 @@ import AboutMe from "@/components/AboutMe";
 import Specializing from "@/components/Specializing";
 import Footer from "@/components/Footer";
 import { CustomScrollbar } from "@/components/ui/CustomScrollbar";
+import Fit7Intro from "@/components/Fit7Intro";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         {/* Your page content goes here */}
         <div className="mx-auto antialiased relative">
           <Header />
+          <Fit7Intro/>
           <Specializing />
           <WorkExp />
           <Skills />
