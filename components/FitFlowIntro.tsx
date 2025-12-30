@@ -1,7 +1,7 @@
 import React from 'react'
 import { BackgroundLines } from './ui/background-lines'
 
-const Fit7Intro = () => {
+const FitFlowIntro = () => {
   return (
     <BackgroundLines
       className="relative overflow-hidden"
@@ -22,4 +22,4 @@ const Fit7Intro = () => {
   )
 }
 
-export default Fit7Intro
+export default FitFlowIntro
