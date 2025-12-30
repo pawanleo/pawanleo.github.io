@@ -9,7 +9,7 @@ import AboutMe from "@/components/AboutMe";
 import Specializing from "@/components/Specializing";
 import Footer from "@/components/Footer";
 import { CustomScrollbar } from "@/components/ui/CustomScrollbar";
-import Fit7Intro from "@/components/Fit7Intro";
+import Fit7Intro from "@/components/FitFlowIntro";
 
 export default function Home() {
   return (
